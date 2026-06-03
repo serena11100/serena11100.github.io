@@ -19,6 +19,7 @@ body {
   margin: 0;
   padding: 30px;
   color: #333;
+　font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
 
 /* --------------------
@@ -37,13 +38,13 @@ h1, h2, h3 {
 a {
   color: var(--theme-color);
   text-decoration: none;
-  display: inline-block; /* 💡ピョコッと動かすためにここに追加 */
-  transition: 0.3s;      /* 💡動きを滑らかにする（全角スペースも修正） */
+  display: inline-block; 
+  transition: 0.3s;      
 }
 
 a:hover {
-  opacity: 0.7;                /* 💡今の「じんわり薄くなる」やつ */
-  transform: translateY(-2px); /* 💡追加：「上に2マス浮く」やつ */
+  opacity: 0.7;                
+  transform: translateY(-2px); 
 }
 
 /* --------------------
