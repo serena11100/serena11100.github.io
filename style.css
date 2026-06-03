@@ -67,23 +67,24 @@ li:before {
 table {
   border-spacing: 0;
   border-collapse: collapse;
-  border: solid 1px #f0f0f0;
+  border: solid 1px #333; /* 線の色を暗く */
   min-width: 70%;
 }
 tr {
-  background-color: #fff;
+  background-color: #26262b; /* 表の背景を暗いグレーに */
 }
 tr:nth-child(2n) {
-  background-color: #f9f9f9;
+  background-color: #2e2e33; /* 1行おきにちょっと色を変える */
 }
 th {
   background: var(--theme-color);
-  color: #fff;
+  color: #1a1a1d; /* 文字を黒にして読みやすく */
 }
 th, td {
-  border: solid 1px #f0f0f0;
+  border: solid 1px #333; /* 線の色を暗く */
   padding: 0.5rem;
 }
+
 
 img {
   width: 120px;
