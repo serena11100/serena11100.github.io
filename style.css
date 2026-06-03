@@ -27,9 +27,22 @@ body {
         見出し
 -------------------- */
 
-h1, h2, h3 {
+/* h1 (一番上の「たくと」) は今のまま */
+h1 {
   color: var(--theme-color);
   border-bottom: dashed 0.1em var(--theme-color);
+  padding-bottom: 10px;
+}
+
+/* 👇 h2 と h3 (About, Profile, Skillsなど) を縦線にする */
+h2, h3 {
+  color: var(--theme-color);
+  border-left: solid 10px var(--theme-color); /* 💡左側に太い縦線 */
+  padding: 8px 15px;                        /* 💡上下左右に隙間を作る */
+  border-bottom: none;                       /* 💡元の点線を消す */
+  margin-top: 40px;                          /* 💡上のコンテンツとの隙間 */
+  background-color: rgba(0, 255, 204, 0.1);    /* 💡テーマカラーのうっすら背景を足して、線を強調 */
+  border-radius: 4px;                        /* 💡四隅をちょっと丸く */
 }
 
 /* --------------------
