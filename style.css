@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color: #00ffcc; /* 💡ダークモードに映えるネオンミントに変えました（元の #00a0a0 でもOK） */
+  --theme-color: #00ffcc; /* 💡ネオンミントに */
 }
 
 * {
@@ -18,8 +18,8 @@ html, body {
 body {
   margin: 0;
   padding: 30px;
-  background-color: #1a1a1d; /* 💡追加：背景をカッコいい黒にする */
-  color: #eaeaea;           /* 💡変更：文字を暗い画面で見やすい薄グレーにする */
+  background-color: #1a1a1d; /* 背景を黒に */
+  color: #eaeaea;           /* 文字を薄グレー */
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
 
@@ -27,22 +27,22 @@ body {
         見出し
 -------------------- */
 
-/* h1 (一番上の「たくと」) は今のまま */
+
 h1 {
   color: var(--theme-color);
   border-bottom: dashed 0.1em var(--theme-color);
   padding-bottom: 10px;
 }
 
-/* 👇 h2 と h3 (About, Profile, Skillsなど) を縦線にする */
+/* 👇 h2 と h3 (About, Profile, Skillsなど) を縦線に */
 h2, h3 {
   color: var(--theme-color);
-  border-left: solid 10px var(--theme-color); /* 💡左側に太い縦線 */
-  padding: 8px 15px;                        /* 💡上下左右に隙間を作る */
-  border-bottom: none;                       /* 💡元の点線を消す */
-  margin-top: 40px;                          /* 💡上のコンテンツとの隙間 */
-  background-color: rgba(0, 255, 204, 0.1);    /* 💡テーマカラーのうっすら背景を足して、線を強調 */
-  border-radius: 4px;                        /* 💡四隅をちょっと丸く */
+  border-left: solid 10px var(--theme-color); /* 左側に太い縦線 */
+  padding: 8px 15px;                        /* 上下左右に隙間を作る */
+  border-bottom: none;                       /*　元の点線を消す */
+  margin-top: 40px;                          /* 上のコンテンツとの隙間 */
+  background-color: rgba(0, 255, 204, 0.1);    /* テーマカラーのうっすら背景を足して、線を強調 */
+  border-radius: 4px;                        /* 四隅をちょっと丸く */
 }
 
 /* --------------------
